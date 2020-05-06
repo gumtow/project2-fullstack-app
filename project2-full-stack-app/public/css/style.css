@@ -1,0 +1,118 @@
+html{
+  min-height:100vh;
+}
+body {
+    /* height: calc(100vh - 1000px); */
+    margin: 0;
+    color:#707070;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    min-height: 100vh;
+    position: relative;
+  }
+
+  a:hover{
+    text-decoration: none;
+  }
+
+  h1, h2, h3, h4{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+  }
+
+  /* h1{
+    font-size: 4rem;
+  }
+  h2{
+    font-size: 3rem;
+  } */
+  
+
+.container-fluid{
+      padding:0;
+
+  }
+
+  header {
+    background: url("/img/waves-header-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 350px;
+  }
+
+  main {
+    background-color: #ffffff;
+    /* height: calc(100vh - 1000px); */
+    padding-bottom: 650px!important;
+  }
+
+  footer {
+    background-color: #32292F;
+    height: 650px;
+    width: 100%;
+    position:absolute;
+    bottom: 0;
+  }
+
+  footer h4{
+    padding-top:50px;
+    color:#ffffff;
+
+  }
+
+  .item{
+    background-position: center!important;
+    background-size: cover!important;
+    background-repeat: no-repeat!important;
+    border-radius: 1rem;
+    height: 185px;
+    overflow: hidden;
+    position: relative;
+}
+
+.item-content{
+  background: radial-gradient( rgba(50, 41, 47, .5), rgba(50, 41, 47, .75));
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 1rem;
+  transition: all .2s ease-in-out;
+}
+
+.item-content:hover{
+  background: radial-gradient( rgba(30, 212, 186, .75), rgba(30, 212, 186, 1));
+  transform: scale(1.1); 
+}
+
+.contact-form{
+  color:#fff;
+}
+
+.main-btn{
+  background-color: rgba(30, 212, 186, 0.75);
+  color:#fff;
+  border:none;
+
+}
+
+.main-btn:hover{
+  background-color: #1ED4BA;;
+  color:#ffffff;
+}
+
+  #my-info{
+      background-color: #ffffff;
+      border-radius: 1rem;
+      border: 1px solid #AFBFC0;
+      padding:2rem;
+      margin:-240px 15px 25px;
+  }
+  #profile-img img{
+    max-height: 125px;
+    margin: 2rem 0 1.5rem;
+  }

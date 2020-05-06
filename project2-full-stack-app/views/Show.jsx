@@ -23,6 +23,10 @@ class Show extends React.Component{
                         )
                     })}</p>
                     <p>Rating: {portfolio.rating}</p>
+                    <a className="btn btn-outline-info btn-sm" href={`/jgumtow/${portfolio.id}/edit`}>Edit</a>
+                    <form action={`/jgumtow/${portfolio.id}?_method=DELETE`} method="POST">
+                        <input className="btn btn-outline-danger btn-sm" type="submit" value="Delete"/>
+                    </form>
 
                 </div>
 

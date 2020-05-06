@@ -31,7 +31,10 @@ router.get('/seed', (req, res)=>{
 
 // 01. Index Route
  router.get('/', (req, res)=>{
-    Portfolio.find({}, (error, allItems)=>{
+    Portfolio.find({}, (err, allItems)=>{
+        if(err){
+            console.log(err)
+        }
         res.render('Index', {
            portfolio: allItems
            
@@ -47,6 +50,9 @@ router.get('/new', (req, res)=>{
 // 03. Show Route
 router.get('/:id', (req, res)=>{
     Portfolio.findById(req.params.id, (err, portfolioItem)=>{
+        if(err){
+            console.log(err)
+        }
         res.render('Show', {
             portfolio:portfolioItem
         });
@@ -56,6 +62,9 @@ router.get('/:id', (req, res)=>{
 // 04. Edit Route
 router.get('/:id/edit', (req,res)=>{
     Portfolio.findById(req.params.id, (err, portfolioItem)=>{
+        if(err){
+            console.log(err)
+        }
         res.render('Edit', {
             portfolio:portfolioItem
         });
@@ -80,8 +89,10 @@ router.post('/', (req, res)=>{
         req.body.show = false;
     }
     req.body.tags = req.body.tags.split(",");
-    Portfolio.create(req.body, (error, PortfolioItem)=>{
-        // res.send(PortfolioItem);
+    Portfolio.create(req.body, (err, PortfolioItem)=>{
+        if(err){
+            console.log(err)
+        }
         res.redirect('/jgumtow');
     })
 });
@@ -90,6 +101,9 @@ router.post('/', (req, res)=>{
 // 06. Delete Route
 router.delete('/:id', (req, res)=>{
     Portfolio.findByIdAndRemove(req.params.id, (err, itemRemoved)=>{
+        if(err){
+            console.log(err)
+        }
         res.redirect('/jgumtow');
     });
 });
