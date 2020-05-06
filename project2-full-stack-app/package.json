@@ -1,14 +1,24 @@
 {
   "name": "project2-full-stack-app",
   "version": "1.0.0",
+  "engines": {
+    "node": "8.10.0"
+  },
   "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "repository":{
+    "type": "git",
+    "url": "git+https://github.com/gumtow/project2-fullstack-app.git"
+  },
+  "bugs":{
+    "url": "https://github.com/gumtow/project2-fullstack-app/issues"
+  },
   "keywords": [],
-  "author": "",
+  "author": "J. Gumtow",
   "license": "ISC",
   "dependencies": {
     "emailjs-com": "^2.4.1",
