@@ -8,7 +8,7 @@ class Index extends React.Component{
     render(){
         const {portfolio}= this.props;
         return(
-            <Default title="The Portfolio of Jesse Gumtow">
+            <Default title="The Portfolio of Jesse Gumtow" route="index">
                 <div className="row">
                     <div className="col-md-4">
                         <div id="my-info">

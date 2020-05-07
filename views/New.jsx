@@ -8,7 +8,7 @@ class New extends React.Component{
     render(){
         // const {title, img, show, description, tags, rating}= this.props.portfolio;
         return(
-            <Default title="Create a new Portfolio Item">
+            <Default title="Create a new Portfolio Item" route="new">
                 <div className="row">
                 <div className="col-md-5 my-auto">
                         <form className="form-group" action="/jgumtow" method="POST">

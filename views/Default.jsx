@@ -3,6 +3,16 @@ const emailjs = require('emailjs-com');
 
 class Default extends React.Component{
     render(){
+        
+        const route = this.props.route;
+        // console.log(route);
+        let display = "none";
+        if (route === "index"){
+            display="none";
+        } else {
+            display = "inline";
+        }
+        // console.log(display);
         return(
             <html>
                 <head>
@@ -16,7 +26,15 @@ class Default extends React.Component{
                 </head>
                 <body className="container-fluid">
                         <header className="container-fluid">
+                                <div className="container" >
+                                    <div id="home-btn" style={{display:display}}>
+                                        <a className="btn btn-primary" href="/jgumtow">Home</a>
+                                    </div>
+                                    <h1>{this.props.projName}</h1>
+                                </div>
+                                
 
+                                {/* <h5>{this.props.tags}</h5> */}
                         </header>
                         <main className="container-fluid">
                             <div className="container">
@@ -35,30 +53,7 @@ class Default extends React.Component{
                                             Email: <input className="form-control" type="email" name="email" /><br/>
                                             Message: <textarea className="form-control" type="text" name="message" /><br/>
                                             <input className="btn btn-primary main-btn" type="submit" name="" value="Send"/>
-                                        </form>
-
-
-                                        {/* <form id="myform" onsubmit="emailjs.sendForm('default_service', 'jgumtow_portfolio', this); return false;" method="post">
-                                            <label>user_email</label>
-                                            <input type="text" name="user_email" />
-                                            <label>from_name</label>
-                                            <input type="text" name="from_name" />
-                                            <label>message</label>
-                                            <input type="text" name="message" />
-                                            <label>user_name</label>
-                                            <input type="text" name="user_name" />
-                                            <br/><br/>
-                                            <button>
-                                            Send
-                                            </button>
-                                        </form>
-                                        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
-                                        <script type="text/javascript">
-                                        {(function(){
-                                            emailjs.init("user_3kmbymomOAKe7D8e7YdJ7");
-                                        })()};
-                                        </script> */}
-                                        
+                                        </form>                                        
                                     </div>
                                     <div className="col-md-4"></div>
                                     <div className="col-md-4"></div>
