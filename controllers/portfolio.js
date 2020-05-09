@@ -18,7 +18,7 @@ router.get('/seed', (req, res)=>{
     Portfolio.create([
         {
             title:"Animated Upbring Golf Logo",
-            img:"../img/golf-logo-01.gif",
+            img:"/img/golf-logo-01.gif",
             description:"I designed an animated logo for the annual Upbring golf tournament.",
             tags: ["gif", "logo", "Upbring"],
             rating: 4,
@@ -44,7 +44,9 @@ router.get('/seed', (req, res)=>{
 
 // 02. New Route
 router.get('/new', (req, res)=>{
-    res.render('New');
+    res.render('New', {
+        portfolio:Portfolio
+    });
 });
 
 // 03. Show Route

@@ -57,12 +57,12 @@ body {
   }
 
   main {
-    background-color: #ffffff;
+    background: #fff;
     padding: 2rem 0 450px!important;
   }
 
   footer {
-    background-color: var(--dark);
+    background: var(--dark);
     height: 450px;
     width: 100%;
     position:absolute;

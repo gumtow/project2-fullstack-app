@@ -5,9 +5,9 @@ const Schema = mongoose.Schema;
 // Create Schema
 const portfolioSchema = new Schema({
     title: {type:String, required:true},
-    img: {type:String, required:true},
+    img: {type:String, required:true, default:"/img/gd-favicon.png"},
     description: String, 
-    link:String,
+    link:{type:String, show:true},
     tags: Array,
     rating:Number,
     show:Boolean

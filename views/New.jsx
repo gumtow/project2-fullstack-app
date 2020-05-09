@@ -12,7 +12,7 @@ class New extends React.Component{
                 <div className="col-md-5 my-auto">
                         <form className="form-group" action="/jgumtow" method="POST">
                             Title: <input className="form-control" type="text" name="title" /><br/>
-                            Image Location: <input className="form-control" type="text" name="img" /><br/>
+                            Image Location: <input className="form-control" type="text" name="img" defaultValue="/img/gd-favicon.png" /><br/>
                             Project Link: <input className="form-control" type="text" name="link" /><br/>
                             Description: <input className="form-control" type="text" name="description" /><br/>
                             <div className="form-group form-check">
