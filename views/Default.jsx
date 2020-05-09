@@ -19,6 +19,7 @@ class Default extends React.Component{
                     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
                     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500;700&family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet"></link>
                     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossOrigin="anonymous"></link>
+                    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous"></link>
                     <link rel="stylesheet" href="/css/style.css"/>
                     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
                    <title>{this.props.title}</title>
@@ -27,10 +28,11 @@ class Default extends React.Component{
                         <header className="container-fluid">
                                 <div className="container" >
                                     <div id="home-btn" style={{display:display}}>
-                                        <a className="btn btn-primary main-btn" href="/jgumtow">Home</a>
+                                    
+                                        <a className="btn btn-primary main-btn" href="/jgumtow"><i className="fas fa-home"></i> Home</a>
                                     </div>
                                     <div id="create-btn">
-                                        <a className="btn btn-primary main-btn" href="/jgumtow/new">Create new portfolio item</a>
+                                        <a className="btn btn-primary main-btn" href="/jgumtow/new"><i class="fas fa-plus-square"></i> New Portfolio Item</a>
                                     </div>
                                     <h1>{this.props.projName}</h1>
                                 </div>

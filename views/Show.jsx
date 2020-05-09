@@ -29,7 +29,7 @@ class Show extends React.Component{
                             <p>Rating: {portfolio.rating}</p>
                             <div className="row" >
                                 <div className="col-md-5">
-                                    <a className="btn btn-outline-info btn-sm main-btn btn-block" href={`/jgumtow/${portfolio.id}/edit`}>Edit</a>
+                                    <a className="btn btn-outline-info btn-sm main-btn btn-block" href={`/jgumtow/${portfolio.id}/edit`}><i class="far fa-edit"></i> Edit</a>
                                 </div>
                                 <div className="col-md-1"></div>
                                 <div className="col-md-4">

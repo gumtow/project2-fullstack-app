@@ -57,7 +57,7 @@ class Index extends React.Component{
                             {
                                 portfolio.map((portfolioItem, i)=>{
                                     return(
-                                        <div className="col-lg-4 col-md-6"  key={i}>
+                                        <div className="col-lg-4 col-md-6 py-3"  key={i}>
                                             <div className="item" style={{ background:'url('+portfolioItem.img+')'}}>
                                                 <a href={`/jgumtow/${portfolioItem.id}`}>
                                                     <div className="item-content text-center">
