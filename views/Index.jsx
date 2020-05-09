@@ -31,11 +31,11 @@ class Index extends React.Component{
                             </div>
                             <div className="row">
                                 <ul>
-                                    <li>JavaScript</li>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>NodeJS</li>
-                                    <li>MongoDB</li>
+                                    <li><i class="fab fa-js-square"></i> JavaScript</li>
+                                    <li><i class="fab fa-html5"></i> HTML</li>
+                                    <li><i class="fab fa-css3-alt"></i> CSS</li>
+                                    <li><i class="fab fa-node-js"></i> NodeJS</li>
+                                    <li><i class="fas fa-database"></i> MongoDB</li>
                                 </ul>
                             </div>
                             <div className="row">
@@ -43,10 +43,10 @@ class Index extends React.Component{
                             </div>
                             <div className="row">
                                 <ul>
-                                    <li>LinkedIn</li>
-                                    <li>Behance</li>
-                                    <li>Dribbble</li>
-                                    <li>Gumtow Design</li>
+                                    <li> <a href="https://www.linkedin.com/in/gumtow/" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a> </li>
+                                    <li> <a href="https://github.com/gumtow" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+                                    <li> <a href="https://www.behance.net/gumtow" target="_blank"><i class="fab fa-behance"></i> Behance</a></li>
+                                    <li> <a href="https://dribbble.com/gumtow" target="_blank"><i class="fab fa-dribbble"></i> Dribbble</a></li>
                                 </ul>
                             </div>
                             

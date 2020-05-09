@@ -23,6 +23,7 @@ class Default extends React.Component{
                     <link rel="stylesheet" href="/css/style.css"/>
                     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
                    <title>{this.props.title}</title>
+                   <link rel="icon" href="/img/gd-favicon.png"></link>
                 </head>
                 <body className="container-fluid">
                         <header className="container-fluid">

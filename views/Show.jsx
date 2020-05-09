@@ -22,7 +22,7 @@ class Show extends React.Component{
                             <p>{portfolio.description}</p>
                             <p>
                             <a href={portfolio.link} target="_blank">
-                                <div className="btn main-btn">View Project</div>
+                                <div className="btn btn-primary main-btn">View Project</div>
                             </a>
                             </p>
                             <p>{portfolio.show?`This item will show on your portfolio`: `This item will be hidden from your portfolio`}</p>
