@@ -1,9 +1,9 @@
 # Portfolio Website
 
-##Concept
+## Concept
 The goal of this project was to create a portfolio site to display my work. THe site includes the ability to create, read, update and delete portfolio items and the ability for a user to contact me. 
 
-##Technologies Used
+## Technologies Used
 - HTML
 - CSS
 - Bootstrap 4
@@ -22,7 +22,12 @@ One of the challenges I ran into durng this project was adding some of the dynam
 
 ## Additional Info
 
+### Initial Wireframes
+<img src="public/img/wireframe-rough-edit.jpg">
 
+### Final Wireframes
+<img src="public/img/Gumtow%20Portfolio%20Home.png">
+<img src="public/img/Show%20Page.png">
 
 ## App Demo
 <https://gumtow-portfolio.herokuapp.com/jgumtow>
