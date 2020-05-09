@@ -7,6 +7,7 @@ const portfolioSchema = new Schema({
     title: {type:String, required:true},
     img: {type:String, required:true},
     description: String, 
+    link:String,
     tags: Array,
     rating:Number,
     show:Boolean

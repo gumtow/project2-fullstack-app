@@ -6,7 +6,7 @@ const Default = require('./Default');
 // Extend Index
 class Edit extends React.Component{
     render(){
-        const {_id, title, img, show, description, tags, rating}= this.props.portfolio;
+        const {_id, title, img, show, description, tags, rating, link}= this.props.portfolio;
         return(
             <Default title={`Now editing ${title}`} route="edit">
                 <div className="row">
@@ -15,6 +15,7 @@ class Edit extends React.Component{
                             Title: <input className="form-control" type="text" name="title" defaultValue={title} /><br/>
                             <img className="img-fluid" src={img} alt={title}/><br/>
                             Image Location: <input className="form-control" type="text" name="img" defaultValue={img} /><br/>
+                            Project Link: <input className="form-control" type="text" name="link" defaultValue={link} /><br/>
                             Description: <input className="form-control" type="text" name="description" defaultValue={description} /><br/>
                             <div className="form-group form-check">
                                 <input className="form-check-input" type="checkbox" name="show" checked={show}/>

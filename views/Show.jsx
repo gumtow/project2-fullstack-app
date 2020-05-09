@@ -20,6 +20,11 @@ class Show extends React.Component{
                         <div id="item-info">               
                             <h3>Description:</h3> 
                             <p>{portfolio.description}</p>
+                            <p>
+                            <a href={portfolio.link} target="_blank">
+                                <div className="btn main-btn">View Project</div>
+                            </a>
+                            </p>
                             <p>{portfolio.show?`This item will show on your portfolio`: `This item will be hidden from your portfolio`}</p>
                             <p>Tags: {portfolio.tags.map((tag, i)=>{
                                 return(
