@@ -1,5 +1,4 @@
 const React = require('react');
-const emailjs = require('emailjs-com');
 
 class Default extends React.Component{
     render(){
