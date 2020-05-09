@@ -22,7 +22,12 @@ One of the challenges I ran into durng this project was adding some of the dynam
 
 ## Additional Info
 
+### Initial Wireframes
+<img src="public/img/wireframe-rough-edit.jpg">
 
+### Final Wireframes
+<img src="public/img/Gumtow%20Portfolio%20Home.png">
+<img src="public/img/Show%20Page.png">
 
 ## App Demo
 <https://gumtow-portfolio.herokuapp.com/jgumtow>
