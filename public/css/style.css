@@ -58,12 +58,12 @@ body {
 
   main {
     background-color: #ffffff;
-    padding-bottom: 650px!important;
+    padding-bottom: 450px!important;
   }
 
   footer {
     background-color: var(--dark);
-    height: 650px;
+    height: 450px;
     width: 100%;
     position:absolute;
     bottom: 0;
