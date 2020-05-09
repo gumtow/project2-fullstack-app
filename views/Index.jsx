@@ -49,9 +49,7 @@ class Index extends React.Component{
                                     <li>Gumtow Design</li>
                                 </ul>
                             </div>
-                            <nav>
-                                <a className="btn btn-primary main-btn" href="/jgumtow/new">Create new portfolio item</a>
-                            </nav>
+                            
                         </div>
                     </div>
                     <div className="col-md-8" id="port-items">

@@ -27,7 +27,10 @@ class Default extends React.Component{
                         <header className="container-fluid">
                                 <div className="container" >
                                     <div id="home-btn" style={{display:display}}>
-                                        <a className="btn btn-primary" href="/jgumtow">Home</a>
+                                        <a className="btn btn-primary main-btn" href="/jgumtow">Home</a>
+                                    </div>
+                                    <div id="create-btn">
+                                        <a className="btn btn-primary main-btn" href="/jgumtow/new">Create new portfolio item</a>
                                     </div>
                                     <h1>{this.props.projName}</h1>
                                 </div>

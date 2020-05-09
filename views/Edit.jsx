@@ -13,6 +13,7 @@ class Edit extends React.Component{
                 <div className="col-md-5 my-auto">
                         <form className="form-group" action={`/jgumtow/${_id}?_method=PUT`} method="POST">
                             Title: <input className="form-control" type="text" name="title" defaultValue={title} /><br/>
+                            <img className="img-fluid" src={img} alt={title}/><br/>
                             Image Location: <input className="form-control" type="text" name="img" defaultValue={img} /><br/>
                             Description: <input className="form-control" type="text" name="description" defaultValue={description} /><br/>
                             <div className="form-group form-check">
@@ -22,7 +23,7 @@ class Edit extends React.Component{
                             Tags: <input className="form-control" type="text" name="tags" defaultValue={tags} /><br/>
                             Rating: <input className="form-control" type="number" name="rating" defaultValue={rating} /><br/>
                             <br/>
-                            <input className="btn btn-primary" type="submit" name="" value="Submit Edits"/>
+                            <input className="btn btn-primary main-btn" type="submit" name="" value="Submit Edits"/>
                         </form>
                     </div>
                 </div>
