@@ -1,7 +1,7 @@
 # Portfolio Website
 
 ## Concept
-The goal of this project was to create a portfolio site to display my work. THe site includes the ability to create, read, update and delete portfolio items and the ability for a user to contact me. 
+The goal of this project was to create a portfolio site to display my work. The site includes the ability to create, read, update and delete portfolio items and the ability for a user to contact me. 
 
 ## Technologies Used
 - HTML
