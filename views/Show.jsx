@@ -33,11 +33,11 @@ class Show extends React.Component{
                             })}</p>                            
                             <p>Rating: {portfolio.rating}</p>
                             <div className="row" >
-                                <div className="col-md-5">
+                                <div className="col-md-5 py-2">
                                     <a className="btn btn-outline-info btn-sm main-btn btn-block" href={`/jgumtow/${portfolio.id}/edit`}><i class="far fa-edit"></i> Edit</a>
                                 </div>
                                 <div className="col-md-1"></div>
-                                <div className="col-md-4">
+                                <div className="col-md-4 py-2">
                                     <form action={`/jgumtow/${portfolio.id}?_method=DELETE`} method="POST">
                                         <input className="btn btn-outline-danger btn-sm btn-block" type="submit" value="Delete"/>
                                     </form>
