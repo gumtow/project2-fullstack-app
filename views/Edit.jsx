@@ -8,7 +8,7 @@ class Edit extends React.Component{
     render(){
         const {_id, title, img, show, description, tags, rating, link}= this.props.portfolio;
         return(
-            <Default title={`Now editing ${title}`} projName={portfolio.title} route="edit">
+            <Default title={`Now editing ${title}`} projName={title} route="edit">
                 <div className="row">
                 <div className="col-md-5 my-auto">
                         <form className="form-group" action={`/jgumtow/${_id}?_method=PUT`} method="POST">
